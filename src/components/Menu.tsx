@@ -32,7 +32,7 @@ export const Menu = () => {
                         {menuOpen && <MdOutlineClose className="menu__icon-icon" onClick={toggleMenuOpen} />}
                     </div>
                     <div className="menu__about">
-                        <p>Made my Matko. Provided by Njanja</p>
+                        <p>Made by Matko. Provided by Njanja.</p>
                     </div>
                 </div>
             )}
