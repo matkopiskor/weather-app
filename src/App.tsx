@@ -1,4 +1,5 @@
 import { DayNight } from './components/DayNight';
+import { List } from './components/List';
 import { Topbar } from './components/Topbar';
 
 export const App = () => {
@@ -8,6 +9,7 @@ export const App = () => {
                 <Topbar />
                 <div className="container">
                     <DayNight />
+                    <List />
                 </div>
             </div>
         </div>
