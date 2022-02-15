@@ -1,5 +1,6 @@
 import { DayNight } from './components/DayNight';
 import { List } from './components/List';
+import { Menu } from './components/Menu';
 import { Topbar } from './components/Topbar';
 
 export const App = () => {
@@ -12,6 +13,7 @@ export const App = () => {
                     <List />
                 </div>
             </div>
+            <Menu />
         </div>
     );
 };
