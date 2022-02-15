@@ -10,10 +10,11 @@
 }
 
 .list__item {
-    background-color: rgba(255 255 255 / 0.3);
+    background-color: var(--blur);
     width: 100%;
     min-height: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
 }
