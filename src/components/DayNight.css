@@ -1,0 +1,39 @@
+.day-night {
+    margin-block: 2rem;
+    width: 100%;
+}
+
+.day-night__icon {
+    display: flex;
+    justify-content: center;
+}
+
+.day-night__icon-icon {
+    font-size: 18rem;
+    fill: white;
+}
+
+.day-night__slider {
+    position: relative;
+    width: calc(100% - 6rem);
+    margin: 3rem;
+}
+
+.day-night__slider-track {
+    width: 100%;
+    border: 1px solid #ddd;
+    position: relative;
+}
+
+.day-night__slider-thumb {
+    --half-width: 1px;
+    position: absolute;
+    border-radius: 100%;
+    border: calc(var(--half-width) * 2) solid gray;
+    width: 2rem;
+    aspect-ratio: 1;
+    background-color: #fff;
+    top: calc(-1rem + calc(var(--half-width)));
+    transform: translate(-50%);
+    left: var(--thumb-position, 0);
+}
