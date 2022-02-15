@@ -1,3 +1,11 @@
+import { Topbar } from './components/Topbar';
+
 export const App = () => {
-    return <div className="app">Hello world</div>;
+    return (
+        <div className="wrapper">
+            <div className="app">
+                <Topbar />a
+            </div>
+        </div>
+    );
 };
