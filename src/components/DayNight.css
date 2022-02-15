@@ -19,6 +19,12 @@
     margin: 3rem;
 }
 
+.day-night__slider-values {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
 .day-night__slider-track {
     width: 100%;
     border: 1px solid #ddd;
