@@ -1,6 +1,5 @@
 import { CSSProperties, FC } from 'react';
 import { FaSun, FaMoon } from 'react-icons/fa';
-import { useAppContext } from '../context/context';
 
 import './DayNight.css';
 
